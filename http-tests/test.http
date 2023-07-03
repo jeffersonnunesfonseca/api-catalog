@@ -1,0 +1,4 @@
+GET {{$dotenv API_BASE_URL}}
+
+###
+GET {{$dotenv API_BASE_URL}}
