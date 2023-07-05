@@ -81,3 +81,5 @@ docker run --name mysql-dev -d\
     -p 3306:3306 \
     mysql
 ```
+
+CREATE SCHEMA `catalog` ;

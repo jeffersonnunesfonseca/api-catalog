@@ -2,3 +2,13 @@ GET {{$dotenv API_BASE_URL}}
 
 ###
 GET {{$dotenv API_BASE_URL}}
+
+###
+POST {{$dotenv API_BASE_URL}}/users
+Content-type: application/json
+
+{
+    "name": "Jose",
+    "email": "jose@mail.com",
+    "password": "CC123456"
+}
