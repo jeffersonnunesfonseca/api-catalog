@@ -22,7 +22,7 @@ export class UserEntity {
   name: string;
 
   @Column({
-    default: Gender,
+    enum: Gender,
   })
   gender: string;
 
@@ -41,7 +41,7 @@ export class UserEntity {
     type: 'date',
     nullable: true,
   })
-  birthday_date: Date;
+  birthday_at: Date;
 
   @Column({
     default: PersonType,
@@ -59,6 +59,7 @@ export class UserEntity {
   fantasy_name: string;
 
   @Column({
+    enum: Role,
     default: Role.USER,
   })
   role: string;

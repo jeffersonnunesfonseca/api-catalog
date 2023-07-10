@@ -10,5 +10,14 @@ Content-type: application/json
 {
     "name": "Jose",
     "email": "jose@mail.com",
-    "password": "CC123456"
+    "password": "CC123456",
+    "gender": "MALE",
+    "email_login": "jefferson@j.com",
+    "birthday_date": "1995-06-12",
+    "person_type": "PF",
+    "company_name": "Jtech",
+    "fantasy_name": "Jtech",
+    "password": "Jefonseca@1995"
+
+
 }

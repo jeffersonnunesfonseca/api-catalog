@@ -83,3 +83,9 @@ docker run --name mysql-dev -d\
 ```
 
 CREATE SCHEMA `catalog` ;
+
+Criando versão migration
+
+- `yarn migration:create`
+
+- `yarn migrate:up`
